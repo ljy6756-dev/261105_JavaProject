@@ -27,7 +27,7 @@ public class If {
 		// 나머지는 0
 		// else if(조건식)
 
-		int number1 = 11;
+		int number1 = 012;
 
 		if (number1 > 0) {
 			// int a = 20; // scope가 겹침 사용 못함

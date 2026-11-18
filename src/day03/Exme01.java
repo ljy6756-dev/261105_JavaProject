@@ -40,6 +40,7 @@ public class Exme01 {
 		System.out.println("시도한 횟수 : "+ count + "회");
 		
 		
+		
 		scan.close();
 		
 	}		

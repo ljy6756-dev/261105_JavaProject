@@ -32,8 +32,10 @@ public class HelloWorld {
 		number = 20;
 		System.out.println(number);
 		
-		String str = "abc";
-		System.out.println(str);
+		String str = "123";
+		System.out.println(str+10);
+		int st = Integer.parseInt(str);  //문자를 숫자로 변환
+		System.out.println(st);
 		
 		//---------------------------------
 		

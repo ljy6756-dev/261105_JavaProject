@@ -8,7 +8,7 @@ public class Dowhle02 {
 		// 매뉴구성
 		// 1. 저장하기 | 2.새로만들기 | 3.종료하기
 
-		Scanner scan = new Scanner(System.in); 
+		Scanner scan = new Scanner(System.in);
 		
 		int menu = 0;
 		

@@ -34,7 +34,7 @@ public class Casting {
 		// "123"(문자) => 123(숫자)
 		
 		String str = "123"; //문자
-		System.out.println(str + 10);
+		System.out.println(str + 10);  // 12310
 		
 		// 기본 8 자료형 클래스 타입의 타입이 존재 
 		// 추가기능을 제공(래퍼 클래스 : wrapper class)
@@ -42,8 +42,8 @@ public class Casting {
 		// float -> Float / double -> Double / boolean -> Boolean
 		// byte -> Byte / short -> Short
 		
-		int strnumber = Integer.parseInt(str);
-		System.out.println(strnumber + 10);
+		int strnumber = Integer.parseInt(str);  // 문자를 숫자로 변환
+		System.out.println(strnumber + 10); // 133
 		
 		
 		

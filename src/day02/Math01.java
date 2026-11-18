@@ -13,7 +13,7 @@ public class Math01 {
 		// Math.random(값) : 0~1사이의 아무수 => double(0.0000) 주사위, 로또, 룰렛, 이벤트 등
 
 		
-		double number = 3.14159;
+		double number = 3.14159; 
 		
 		long pi = Math.round(number);
 				System.out.println(pi);

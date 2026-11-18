@@ -31,7 +31,7 @@ public class Exam02 {
 		
 		String op = scan.next();
 		
-		switch(op) {
+		switch(op) { 
 		case "+":
 			System.out.println(num1 + "+" + num2 + "=" + (num1 + num2));
 			break;
