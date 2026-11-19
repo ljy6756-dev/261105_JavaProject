@@ -8,47 +8,51 @@ public class CardMain {
 		 * 범위에 없는 모양이면 : ♥
 		 * 범위에 없는 숫자면 : 1 => A
 */
-	    CardPack p = new CardPack();
+	    CardPack cp = new CardPack();
+	    System.out.println(cp);
+	    
+	    cp.getPack()[2].print();
+	    
 	    //카드 섞기
 		System.out.println("딜러가 카드를 섞고 있습니다.");
-		p.shuffle();
-		
+		cp.shuffle();
 		//카드 한 장씩 나눠주기
 		//player 4명
 		System.out.println("딜러가 카드를 나누고 있습니다.");
-		p.getPack();
+		cp.deal().print();	
 		System.out.println("player1 카드 pick");
-		Card c1 = p.deal();	
+		
 		//메서드 호출
+		cp.deal().print();
 		System.out.println("player2 카드 pick");
-		Card c2 = p.deal();
+
 		//메서드 호출
+		cp.deal().print();
 		System.out.println("player3 카드 pick");
-		Card c3 = p.deal();
+
 		//메서드 호출
+		cp.deal().print();
 		System.out.println("player4 카드 pick");
-		Card c4 = p.deal();
+
 		//메서드 호출
 		
 		
-		System.out.println("player1 card open!");
-		//카드출력
-		System.out.println("player2 card open!");
-		//카드출력
-		System.out.println("player3 card open!");
-		//카드출력
-		System.out.println("player4 card open!");
+//		System.out.println("player1 card open!");
+//		//카드출력
+//		System.out.println("player2 card open!");
+//		//카드출력
+//		System.out.println("player3 card open!");
+//		//카드출력
+//		System.out.println("player4 card open!");
 		//카드출력
 		
 		//카드 회수
-		p.reset();
+		cp.reset();
 		
 		//카드 나눠주기
 		System.out.println("회수 후 다시 나눠주기");
 		
 		
-		System.out.println(p.deal()); //회수
-		System.out.println(p.deal()); //재나눔
 		
 		
 		
@@ -82,10 +86,10 @@ public class CardMain {
 		
 		for(int i = 0; i<shape.length; i++) {
 			for(int j=1; j<=13; j++) {
-				Card c1 = new Card();
-				c1.setShape(shape[i]);
-				c1.setNum(j);
-				c1.print();
+				Card cp1 = new Card();
+				cp1.setShape(shape[i]);
+				cp1.setNum(j);
+				cp1.print();
 			}
 			System.out.println();
 		
